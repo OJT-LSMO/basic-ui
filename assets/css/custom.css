@@ -36,7 +36,7 @@ table {
     margin:10px 20px 10px 0px;
     background-color:#fff!important;
     padding:10px;
-    min-height:1000px;
+    min-height:850px;
 }
 
 .text-center {
@@ -367,8 +367,7 @@ line-height: 1.428571429;
      #page-wrapper{
                margin: 0 0 0 120px;
         padding: 15px 30px;
-        min-height: 1200px;
-		
+        min-height: 904px;
     }
 	
 	
@@ -395,4 +394,26 @@ line-height: 1.428571429;
     margin-top: -15px;
     margin-right:8px;
     background-color:#E20411;
+}
+
+
+/*==============================================
+    machine notice   
+    =============================================*/
+.notice-red{
+    background-color: #E6182E;
+    height: 50px;
+    margin-top:20px;
+    margin-bottom: 15px;
+    padding:10px;
+    border-radius:10px;
+}
+
+.notice-blue{
+    background-color: #00B3D9;
+    height: 50px;
+    margin-top:20px;
+    margin-bottom: 15px;
+    padding:10px;
+    border-radius:10px;
 }
