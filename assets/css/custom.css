@@ -218,6 +218,7 @@ font-weight: 700;
     text-align: center;
     background-color:#fff !important;
     color:#E20411 !important;
+	box-shadow: 0px 5px 8px lightgray;
 }
 
 .arrow {
@@ -304,8 +305,7 @@ font-weight: 700;
 }
 .navbar-side {
 	border:none;
-	background-color: #202020;
-	
+	background-color: #E20411;
 }
 .navbar-cls-top {
 	background:#F9F9FC;
@@ -381,3 +381,14 @@ line-height: 1.428571429;
 }
 
 
+/*==============================================
+    Top Notice    
+    =============================================*/
+.notice-badge{
+    position: absolute; 
+    top: 50%; 
+    right: 50%; 
+    margin-top: -15px;
+    margin-right:8px;
+    background-color:#E20411;
+}
