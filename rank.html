@@ -51,7 +51,7 @@
                         <a class="text-center"  href="home.html" ><i class="fa fa-home fa-3x"></i> <br>Home</a>
                     </li>
                      <li>
-                        <a  class="active-menu" href="member.html"><i class="fa fa-users fa-3x"></i> <br>Member</a>
+                        <a  class="text-center" href="member.html"><i class="fa fa-users fa-3x"></i> <br>Member</a>
                     </li>
                      <li>
                         <a  class="text-center" href="machine.html"><i class="fa fa-calculator fa-3x"></i> <br>Machine</a>
@@ -59,8 +59,8 @@
 						   <li  >
                         <a  class="text-center" href="analysis.html"><i class="fa fa-chart-pie fa-3x"></i> <br>Analysis</a>
                     </li>
-                        <li  >
-                        <a  class="text-center" href="rank.html"><i class="fa fa-chart-bar fa-3x"></i> <br>Rank</a>
+                    <li  >
+                        <a  class="active-menu" href="rank.html"><i class="fa fa-chart-bar fa-3x"></i> <br>Rank</a>
                     </li>
                       <li  >
                         <a  class="text-center" href="sales.html"><i class="fa fa-chart-line fa-3x"></i> <br>Sales</a>
@@ -110,46 +110,77 @@
             <div id="page-inner">
                 <div class="row">
                     <div class="col-md-12">
-                     <h2>직원 목록</h2>   
-                        <h5>직원 리스트입니다. </h5>
-<!--button row-->
-                            <div class="row">
-                              <div class="col-md-1"></div>
-                              <div class="col-md-10">
-                          <button type="button" class="btn btn-default" style="margin-bottom:20px; margin-right:10px; float: right; background-color:#EDEDED">추가</button></div>
-                        <div class="col-md-1"></div>
-                            </div>
-                           <div class="row">
-                        <div class="col-md-1"></div>
-                       <div class="col-md-10" style="height:650px; overflow-y:scroll;">
-                    <table class="table table-hover">
-                        <thead><tr>
-    <th>사번</th>
-    <th>이름</th>
-    <th>연락처</th>
-    <th>관리구역</th>
-    <th></th>
-  </tr>
-  </thead>
-  <tbody >
-  <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
-    <td>Germany</td>
-    <td>
-         <a href="#"><i class="fa fa-trash-alt fa-2x" style="width:15px; height:15px; position:relative;transform:translateY(-25%);"></i></a>
-    </td>
-  </tr>
-  </tbody>
-                    </table>
-                                            <div class="col-md-1"></div>
-</div></div>
+                     <h2>랭킹</h2>   
+                        <h5>칠성에서 음료 개발 및 마케팅 정보로 활용할 수 있는 자판기 판매 분석 랭킹 보는곳이라는 말을 예쁘게 고쳐주세요. </h5>
                     </div>
-                </div>
+                </div>              
                  <!-- /. ROW  -->
-                 <hr />
-               
+                  <hr />
+                <div class="row">
+<!--                    upper row
+-->                <div class="col-md-6 col-sm-6 col-xs-6">           
+			<div class="panel panel-back noti-box" style="height:300px;">
+           <!--     <span class="icon-box bg-color-red set-icon">
+                    <i class="fa fa-envelope-o"></i>
+                </span>-->
+                <div class="text-box" >
+                    <p class="main-text">남성</p><hr/>
+                   <!-- <p class="text-muted">Messages</p>-->
+                </div>
+                
+             </div>
+		     </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6">           
+			<div class="panel panel-back noti-box" style="height:300px;">
+                                <div class="text-box" >
+                    <p class="main-text">여성</p><hr/>
+                   <!-- <p class="text-muted">Messages</p>-->
+                </div>
+                </div>
+             </div>
+		     </div>
+                     <!-- /. ROW  -->
+                <hr />                
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">           
+			<div class="panel panel-back noti-box">
+<!--                <span class="icon-box bg-color-blue">
+                    <i class="fa fa-warning"></i>
+                </span>-->
+                <div class="text-box" >
+                    <p class="main-text">상권별 판매 랭킹 </p>
+                    <hr />
+                </div>
+             </div>
+		     </div>
+                    
+                    
+    </div>
+     <!-- /. ROW  -->
+                <hr />                
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">           
+			<div class="panel panel-back noti-box">
+<!--                <span class="icon-box bg-color-blue">
+                    <i class="fa fa-warning"></i>
+                </span>-->
+                <div class="text-box" >
+                    <p class="main-text">시간대별 판매 랭킹 </p>
+                    <hr />
+                </div>
+             </div>
+		     </div>
+                    
+                    
+    </div>
+			</div>
+                
+                        
+        </div>
+                    </div>
+                    </div>
+                </div>     
+                 <!-- /. ROW  -->           
     </div>
              <!-- /. PAGE INNER  -->
             </div>
@@ -163,8 +194,12 @@
     <script src="assets/js/bootstrap.min.js"></script>
     <!-- METISMENU SCRIPTS -->
     <script src="assets/js/jquery.metisMenu.js"></script>
+     <!-- MORRIS CHART SCRIPTS -->
+     <script src="assets/js/morris/raphael-2.1.0.min.js"></script>
+    <script src="assets/js/morris/morris.js"></script>
       <!-- CUSTOM SCRIPTS -->
     <script src="assets/js/custom.js"></script>
- 
+    
+   
 </body>
 </html>
