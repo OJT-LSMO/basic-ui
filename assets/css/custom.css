@@ -16,6 +16,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+table {
+    overflow-y: scroll;
+}
+
  #wrapper {
     width: 100%;
     background:#E20411;
@@ -32,7 +36,7 @@ body {
     margin:10px 20px 10px 0px;
     background-color:#fff!important;
     padding:10px;
-    min-height:1200px;
+    min-height:1000px;
 }
 
 .text-center {
@@ -57,7 +61,7 @@ border-radius: 0px;
 p {
     font-size:16px;
     line-height:25px;
-    padding-top:20px;
+    padding-top:10px;
 }
 /*==============================================
    DASHBOARD STYLES    
@@ -86,7 +90,7 @@ font-size: 40px;
     margin: 0 0 3px;
 }
 .main-text {
-    font-size: 25px;
+    font-size: 15px;
     font-weight:600;
 }
 .set-icon {
